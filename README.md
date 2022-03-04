@@ -10,11 +10,12 @@ _mvn test_
 __Para crear artefacto de despliegue (.jar)__
 _mvn package_
 
-__Para ejecutar usando spring pluging__ _mvn spring-boot:run_ y luego acceder a [http://localhost:8080/greeting](http://localhost:8080/greeting)
+__Para ejecutar usando spring pluging__ _mvn spring-boot:run_ 
 
-__Para ejecutar usando el artefacto generado__ _java -jar target/demo-spring-0.0.1-SNAPSHOT.jar_ y luego acceder a [http://localhost:8080/greeting](http://localhost:8080/greeting)
+__Para ejecutar usando el artefacto generado__ _java -jar target/demo-spring-0.0.1-SNAPSHOT.jar_ 
 
 __Para probar__
+
 GET en [http://localhost:8090/demogreeting](http://localhost:8090/demo/greeting) 
 
 GET en [http://localhost:8090/demogreeting](http://localhost:8090/demo/greeting) parametro name
