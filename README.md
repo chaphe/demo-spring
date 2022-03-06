@@ -16,11 +16,11 @@ __Para ejecutar usando el artefacto generado__ _java -jar target/demo-spring-0.0
 
 __Para probar__
 
-GET en [http://localhost:8090/demogreeting](http://localhost:8090/demo/greeting) 
+- GET en [http://localhost:8090/demogreeting](http://localhost:8090/demo/greeting) 
 
-GET en [http://localhost:8090/demogreeting](http://localhost:8090/demo/greeting) parametro name
+- GET en [http://localhost:8090/demogreeting](http://localhost:8090/demo/greeting) parametro name
 
-POST en [http://localhost:8090/register](http://localhost:8090/demo/registar) parametros: name y lang (valores posibles EN, ES o FR)
+- POST en [http://localhost:8090/register](http://localhost:8090/demo/registar) parametros: name y lang (valores posibles EN, ES o FR)
 
 
 
